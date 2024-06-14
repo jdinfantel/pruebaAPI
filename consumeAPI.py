@@ -4,7 +4,7 @@ from googleapiclient.discovery import build
 
 # Configuración de las credenciales
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-SERVICE_ACCOUNT_FILE = '/pruebaAPI/blob/main/xenon-bit-350815-897648447697.json'
+SERVICE_ACCOUNT_FILE = '/xenon-bit-350815-897648447697.json'
 
 # Autenticación y creación del servicio de Google Sheets
 creds = service_account.Credentials.from_service_account_file(
