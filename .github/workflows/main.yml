@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    #- cron: '0 0 * * *' # Esto ejecutará el script todos los días a la medianoche UTC
+    - cron: '0 0 * * *' # Esto ejecutará el script todos los días a la medianoche UTC
 
 jobs:
   run-script:
